@@ -1,0 +1,46 @@
+uuid: e9258c29-3762-434f-bcac-0b44cc99482a
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create event content'
+  - 'create page content'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete event revisions'
+  - 'delete own article content'
+  - 'delete own event content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any article content'
+  - 'edit any event content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own event content'
+  - 'edit own page content'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert event revisions'
+  - 'revert page revisions'
+  - 'view all revisions'
+  - 'view any article content'
+  - 'view any event content'
+  - 'view any page content'
+  - 'view article revisions'
+  - 'view event revisions'
+  - 'view own article content'
+  - 'view own event content'
+  - 'view own page content'
+  - 'view own unpublished content'
+  - 'view page revisions'

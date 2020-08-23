@@ -1,0 +1,7 @@
+uuid: 34a21fea-c9b6-4965-9bfa-19c8ae47af7d
+langcode: en
+status: true
+dependencies: {  }
+id: event_view_permission
+label: 'Event view permission'
+route: view.events.page_1

@@ -1,0 +1,9 @@
+uuid: 07bebfdb-ab8b-4146-a277-06a3c5f8e84a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3Ay9YI_ngS7P7x3VPJDbmjrsZ8GT_S-Zkfgx2g4tGeY
+id: administer_date_time
+label: 'Administer date-time'
+route: entity.date_format.collection

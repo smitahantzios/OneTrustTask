@@ -1,0 +1,26 @@
+uuid: db229f9b-596f-48c9-b856-e220b30d1d4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_city
+    - field.field.node.event.field_date
+    - field.field.node.event.field_state
+    - node.type.event
+  module:
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_city: true
+  field_date: true
+  field_state: true

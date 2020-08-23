@@ -1,0 +1,27 @@
+uuid: 849226e7-560f-49a2-a826-3ad2ba4ddbf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_city
+    - node.type.event
+id: node.event.field_city
+field_name: field_city
+entity_type: node
+bundle: event
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: business_rules_views
+  handler_settings:
+    business_rules_view:
+      view_name: cities
+      display_name: entity_reference_1
+      arguments: {  }
+      parent_field: field_state
+      reference_parent_by_uuid: false
+field_type: entity_reference
