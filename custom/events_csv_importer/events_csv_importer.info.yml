@@ -1,0 +1,9 @@
+name: Events CSV Importer
+type: module
+description: 'Import events content from CSV.'
+package: Custom
+# version: '8.x-1.8'
+core: '8.x'
+core_version_requirement: ^8 || ^9
+dependencies:
+  - csv_importer:csv_importer
